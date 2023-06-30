@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.HERO {
+  background-image: url("images/sauvik-bose-2VHTAW_p2UM-unsplash.jpg");
+  background-size: cover;
+  background-color: white;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+
+
+}
+
+.welcome {
+  color: #6fffe9;
+  text-align: right;
+  padding: 40px 40px 0 20px;
+  font-family: 'Caprasimo', cursive;
+  text-shadow: 2px 2px 2px black;
+}
+
+.activity {
+  background-color: #219ebc;
+  display: flex;
+  flex-direction: column;
+}
+
+.locations-tag {
+  font-family: 'Caprasimo', cursive;
+  font-style: normal;
+  color: #264653;
+}
+
+.locations {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.location-paragraph {
+  width: 200px;
+  font-family: 'Caprasimo', cursive;
+  font-size: small;
+}
+
+.avatar {
+    border-radius: 70px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+#football {
+  height: 150px;
+}
+
+#NightImage:hover {
+  border: 2px solid #5c677d;
+}
+
+#victoria:hover {
+  border: 2px solid #5c677d;
+}
+
+#football:hover {
+  border: 2px solid #5c677d;
+}
+
+.footer {
+  background-color: #118ab2;
+  text-align: center;
+}
+.Guide {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 2px solid #80ffdb;
+  background-color: #80ffdb;
+
+}
+#guidepic {
+  border-radius: 50%;
+  width: 150px;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 0px;
+
+}
+
+.guidewords {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+}
+#guidepic:hover {
+  border: 2px solid #5c677d;
+}
+#guide-bio {
+  font-style: italic;
+  font-size: 20px;
+}
